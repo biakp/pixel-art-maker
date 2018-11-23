@@ -32,8 +32,6 @@
             $(this).css('background-color', color.val());
         });
     }
-
-
     // When size is submitted by the user, call makeGrid()
     document.querySelector('form').addEventListener('submit', function (event) {
         makeGrid();
