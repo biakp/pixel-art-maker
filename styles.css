@@ -1,0 +1,65 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+body {
+    text-align: center;
+    background: #000;
+    background-image: linear-gradient(to top,
+        #BC2582 10%,
+        #040C4A 70%);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Share Tech Mono',
+    monospace;
+      color: #BC2582;
+}
+
+/* Glowing effect based on https://cssreset.com/create-glowing-neon-text-using-css3/ */
+h1 {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    opacity: 0.5;
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 0.5px solid grey;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+    background-color: #fff;
+}
+
+input[type=number] {
+    width: 3em;
+}
+.button {
+    border-radius: 50px;
+    cursor:pointer;
+    color: #fff;
+    background-color: #BC2582;
+    opacity: 0.8;
+}
